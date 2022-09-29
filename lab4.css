@@ -1,0 +1,129 @@
+*{
+    margin:0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.main_header{
+    background-color:#507299 ;
+    padding: 6px 0 6px 0;
+}
+body{
+    background-color: #edeef0;
+}
+.logo{
+    margin-left: 15%;    
+}
+nav{
+    width:250px;
+    margin-left: 22%;
+}
+ul{
+    list-style-type: none;
+}
+a:hover{
+    background: #e1e5eb;
+}
+a{
+    color:#507299;
+    text-decoration: none;
+}
+li{
+    margin-top: 15px;
+}
+.main{
+margin:0 auto;
+}
+.cat{
+    
+    width: 420px;
+    height: 290px;
+}
+
+.text{
+    position: relative;
+    background-color: white;
+    margin: -170px 0 190px 37%;
+    width: 420px;
+    height: 340px;
+    border: 2px solid #d0d0d0;
+    padding: 20px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    text-align:justify;
+}
+.like_com{
+    position: absolute;
+    bottom: 20px;
+    left:20px;
+    width: 91%;
+    border-top:4px solid #d0d0d0;
+    padding-top: 15px;
+    word-spacing: 315px;
+}
+.other_1{
+    background-color: white;
+    position: fixed;
+    top: 60px;
+    right:350px;
+    width: 150px;
+    border: 2px solid #d0d0d0;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+.other_1 p{
+    background-color:#edeef0 ;
+    margin: 15px 10px 15px 10px;
+}
+.other_2{
+    background-color: white;
+    position: fixed;
+    top: 250px;
+    right:350px;
+    width: 150px;
+    border: 2px solid #d0d0d0;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+.other_2 p{
+    background-color:#edeef0 ;
+    margin: 15px 10px 15px 10px;
+}
+.second_header{
+    margin: 15px 10px 15px 10px;
+}
+footer{
+    color:#d0d0d0;
+    background-color: white;
+    text-align: center;
+}
+p::selection{
+    background:#edeef0 ;
+    color:green;
+}
+
+@media screen and (max-width: 1550px) {
+    nav{
+        margin:0 auto;
+        width: 500px;
+    }
+    ul{
+        word-break:normal;
+    }
+    li{
+        display: inline-block;
+        padding:5px;
+    }
+    .text{
+       margin:0 auto;
+       margin-top:40px;
+       margin-bottom: 20px;
+    }
+   .other_info{
+       display: none;
+   } 
+}
